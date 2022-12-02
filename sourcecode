@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Daffa</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+
+    <h1 style=" coloar :rgb(156, 58, 58) ; "> Profil Dosen</h1>
+    <body>
+    </div>
+    <div class="row">
+    <div class="col-12">
+        <div class="card-box" wire:loading.class='d-none'>
+            <p class="sub-header">
+                Daftar Dosen di Universitas Daffa Gaming Depok
+            </p>
+            <script>
+                $(document).ready(function() {
+                    $('#table-daftar-dosen-1').DataTable( {
+                        "paging":   true,
+                        "ordering": true,
+                        "info":     true,
+                        "stateSave": true,
+                    });
+                } );
+            </script>
+                            <div class="table-responsive">
+                <table id="table-daftar-dosen-1" class="table table-bordered table-hover rounded"
+                    style="border-collapse: collapse; border-spacing: 0; width: 100%; ">
+                    <thead>
+                        <tr>
+                            <th>NO</th>
+                            <th>Nama</th>
+                            <th>NIDN</th>
+                            <th>Program Studi</th>
+                            <th>Jurusan</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                                                    <tr>
+                            <td>1</td>
+                            <td class="text-left">
+                                <a class="text-success"
+                                   >Dr.  Massego, M. Pd.</a>
+                            </td>
+                            <td class="text-left">000402423</td>
+                            <td class="text-left">Pendidikan Agama</td>
+                            <td class="text-left">Manarita</td>
+                        </tr>
+                                                    <tr>
+                            <td>2</td>
+                            <td class="text-left">
+                                <a class="text-success"
+                                   >Dr.  Astuti, S. Pd., M. Pd.</a>
+                            </td>
+                            <td class="text-left">000852534</td>
+                            <td class="text-left">Pendidikan Bahasa Inggris</td>
+                            <td class="text-left">DTP</td>
+                        </tr>
+                                                    <tr>
+                            <td>3</td>
+                            <td class="text-left">
+                                <a class="text-success"
+                                   >Dr.  Sugiarto, M. Pd.</a>
+                            </td>
+                            <td class="text-left">00423424</td>
+                            <td class="text-left">Pendidikan Seni Rupa</td>
+                            <td class="text-left">Animasi dan DTP</td>
+                        </tr>
+                                                    <tr>
+                            <td>4</td>
+                            <td class="text-left">
+                                <a class="text-success"
+                                   >Andre Martialahu, S. Pd., Ph. D.</a>
+                            </td>
+                            <td class="text-left">005523421</td>
+                            <td class="text-left">Pendidikan Bahasa Indonesia</td>
+                            <td class="text-left">MIK</td>
+                        </tr>
+                                                    <tr>
+                            <td>5</td>
+                            <td class="text-left">
+                                <a class="text-success"
+                                    >Dr.  Sugianto, M, Hum</a>
+                            </td>
+                            <td class="text-left">004434234</td>
+                            <td class="text-left">Pemograman </td>
+                            <td class="text-left">DTP</td>
+                        </tr>
+                                                    <tr>
+                            <td>6</td>
+                            <td class="text-left">
+                                <a class="text-success">Hans Zolah, S. Pd., M. Pd.</a>
+                            </td>
+                            <td class="text-left">003324234</td>
+                            <td class="text-left">Pendidikan Bahasa, Sastra Indonesia, dan Daerah</td>
+                            <td class="text-left">Manarita</td>
+                        </tr>
+                                                    <tr>
+                            <td>7</td>
+                            <td class="text-left">
+                                <a class="text-success" >Pangestu Artika, S. Pd., M. Pd., Ph. D.</a>
+                            </td>
+                            <td class="text-left">003324153</td>
+                            <td class="text-left">Pendidikan Bahasa Inggris</td>
+                            <td class="text-left">DTP</td>
+                        </tr>
+                                                    <tr>
+                                                        
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+    <!-- Livewire Component wire-end:cGflHCBujMQKuws76kCa -->
+                <!-- end row -->
+            </div> <!-- end container-fluid -->
+        </div>
+        <!-- end wrapper -->
+    
+        <!-- ============================================================== -->
+        <!-- End Page content -->
+        <!-- ============================================================== -->
+        
+    
+</body>
+
+</html>
